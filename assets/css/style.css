@@ -1,0 +1,138 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    font: 30px/60px Arial, sans-serif;
+    text-align: left;
+    padding-left: 200px;
+	min-width: 800px;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 60px;
+	background: #B0CFCA;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	min-width: 800px;
+	max-width: 1400px;
+	margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	min-height: 80%;
+	height: 80%;
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background: #FAF9D4;
+}
+.content {
+	padding: 0 0 0 270px;
+}
+.text {
+}
+.banner {
+    font: 25px/50px Arial, sans-serif;
+	background: #B0CFCA;
+	padding: 100px 200px 100px 200px;
+}
+#inputtext {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: #7B9B96;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    font: 12px/60px Arial, sans-serif;
+    text-align: left;
+    padding-left: 200px;
+	min-width: 800px;
+	max-width: 1200px;
+	margin: -60px auto 0;
+	height: 60px;
+	background: #B0CFCA;
+	position: relative;
+}
